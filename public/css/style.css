@@ -1,0 +1,138 @@
+ 
+.navbar{
+    height: 5rem;
+}
+
+.fa-compass{
+    color:#fd4350;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color:#222222 !important;
+}
+
+ /* footer */
+.f-info-links a{
+    text-decoration: none;
+   color:#222222;
+ 
+}
+ 
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links{
+   width: 100%;
+   
+   
+}
+.f-info-socials{
+   width: 100%;
+   color:#222222;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   
+}
+.f-info-socials i{
+    margin-right:0.5rem;
+    font-size:1.2rem;
+    line-height:2rem
+    
+}
+ .f-info-copyright{
+   width:100%;
+   line-height:2rem;
+}
+ 
+ .f-info {
+    text-align:center;
+    height: 6rem;
+    background-color:rgb(233, 239, 245);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:space-between;
+    margin-top: 5%;
+     
+  
+ }
+
+ /* cards */
+
+ .card{
+    border: none !important;
+    margin-bottom: 3rem;
+     
+     
+ }
+ .card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit:cover;
+       
+ }
+ .card-body{
+    padding: 1px !important;
+
+ }
+ .card-text {
+    font-weight: 400;
+ }
+ .card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+ }
+ .btn-luxury{ 
+   background-color:transparent;
+   border: 2px solid #000000;
+   color:#000000;
+   border-radius: 5px;
+   font-weight: 500;
+   letter-spacing: 0.5px;
+   transition: all 0.4 ease;
+   scroll-bottom: 10px;
+ }
+  .btn-luxury:hover{
+   background-color:  #d4af37;
+   color:#222222 ;
+   box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2   );
+  }
+
+ /* new page*/
+  .new-btn{
+   background-color: #fd4350 !important;
+   border:none !important ;
+  }
+ /* edit page*/
+  .edit-btn{
+   background-color: #fd4350 !important;
+   border:none !important ;
+  }
+
+/* show page */
+  .show-img{
+       height: 30vh;
+      
+  }
+
+  .btns{
+   display: flex;
+  }
+  .show-card{
+   padding-left:0 ;
+   padding-right: 0;
+  }
+  /* .review-card{
+   border: 1px solid rgb(50, 33, 33);
+   border-radius: 8px;
+  } */
+
+  #map { 
+    height: 100px;
+    width: 400px;
+    overflow: hidden;
+}
+ 
